@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Filter & Sort Page</title>
+    <link rel="stylesheet" href="style.css">                  
+</head>
+<body>
+    <!-- Header section -->
+
+    <section class="header-section">
+        <header class="main-header-section">
+            <div class="logo">
+                <span class="logo-text">e!</span>
+            </div>
+            <div>
+                <button class="btn">Login</button>
+                <button class="btn btn-border">Create an Account</button>
+            </div>
+        </header>
+    </section>
+
+    <div class="page-heading">
+        <p>Breakfast Places in Mumbai</p>
+    </div>
+     <!-- Filter and Sort -->
+
+    <section class="main-border">
+
+        <section class="filter-border">
+            <div class="filter-heading">
+                <p class="filter">Filters</p>
+                <p class="search-label">Select Location</p>
+                <select name="search" class="select">
+                    <option>Select Location</option>
+                    <option value="Mumbai"> Mumbai</option>
+                    <option value="Bangalore"> Bangalore</option>
+                    <option value="Hyderabad"> Hyderabad</option>
+                </select>
+            </div>
+
+            <section>
+                <p class="cusi">Cusine</p>
+               <div class="food">
+                <input type="checkbox" name="North-Indian" id="North-Indian" class="checklist">
+                <label for="North-Indian" class="food-types">North Indian</label>
+                </div>
+                <div class="food">
+                <input type="checkbox" name="South-Indian" id="South-Indian" class="checklist" checked>
+                <label for="South-Indian" class="food-types">South Indian</label>
+                </div>
+                <div class="food">
+                <input type="checkbox" name="Chinese" id="" class="checklist" checked>
+                <label for="" class="food-types">Chinese</label>
+                </div>
+                <div class="food">
+                <input type="checkbox" name="Fast-Food" id="" class="checklist">
+                <label for="" class="food-types">Fast Food</label>
+                </div>
+                <div class="food">
+                <input type="checkbox" name="Street-Food" id="" class="checklist">
+                <label for="" class="food-types">Street Food</label>
+                </div>
+            </section>
+
+            <section class="filtering">
+                <p class="cusi">Cost for Two</p>
+                <div class="food">
+                <input  class="filter" type="radio" name="radio" id="">
+                <label for="" class="radio-label">Less than `500</label>
+                </div>
+                <div class="food">
+                <input  class="filter" type="radio" name="radio" id="">
+                <label for="" class="radio-label">`500 to `1000</label>
+                </div>
+                <div class="food">
+                <input class="filter" type="radio" name="radio" id="">
+                <label for="" class="radio-label">`1000 to `1500</label>
+                </div>
+                <div class="food">
+                <input class="filter" type="radio" name="radio" id="">
+                <label for="" class="radio-label">`1500 to `2000</label>
+                </div>
+                <div class="food">
+                <input class="filter" type="radio" name="radio" id="">
+                <label for="" class="radio-label">`2000+</label>
+                </div>
+            </section>
+
+            <section class="sorting">
+                <p class="cusi">Sort</p>
+                <div class="food">
+                <input type="radio" name="radio" id="price-low">
+                <label for="price-low">Price low to high</label>
+                </div>
+                <div class="food">
+                <input type="radio" name="radio" id="price-high">
+                <label for="price-high">Price high to low</label>
+                </div>
+            </section>
+        </section>
+
+         <!-- Bakery-Details -->
+
+        <section class="menu-sec">
+
+            <article class="menu-details">
+            <section class="bakery">
+                <div class="bakery-img">
+                 <!-- Image -->
+                </div>
+                <div class="bakery-details">
+                    <p class="bakery-name">The Big Chill Cakery</p>
+                    <p class="fort">FORT</p>
+                    <p class="bakery-des">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                </div>
+            </section>
+                <hr>
+                <section class="cuisine">
+                    <div class="price">
+                        <p class="bak">CUISINES:</p>
+                        <p>COST FOR TWO:</p>
+                    </div>
+                    <div class="cost">
+                        <p class="bak">Bakery</p>
+                         <p><span>₹</span>700</p> 
+                    </div>
+                </section>
+            </article>
+
+            <article class="menu-details space">
+            <section class="bakery">
+                <div class="bakery-img">
+                 <!-- Image -->
+
+                </div>
+                <div class="bakery-details">
+                    <p class="bakery-name">The Bake Shop</p>
+                    <p class="fort">FORT</p>
+                    <p class="bakery-des">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                </div>
+            </section>
+                <hr>
+                <section class="cuisine">
+                    <div class="price">
+                        <p class="bak">CUISINES:</p>
+                        <p>COST FOR TWO:</p>
+                    </div>
+                    <div class="cost">
+                        <p class="bak">Bakery</p>
+                        <p><span>₹</span>700</p> 
+                    </div>
+                </section>
+            </article>
+
+             <!-- Page Design -->
+
+        <section class="pagedesign">
+            <button class="arrow arrow-left">&lt;</button>
+            <button class="page active">1</button>
+            <button class="page">2</button>
+            <button class="page">3</button>
+            <button class="page">4</button>
+            <button class="page">5</button>
+            <button class="arrow arrow-right">&gt;</button>
+          </section>
+        </section>
+
+    </section>
+</body>
+</html>

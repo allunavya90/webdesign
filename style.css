@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+   /* Header section */
+
+  .header-section{
+    width: 100%;
+    height: 70px;
+    background-color: #CE0505;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-header-section {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  .logo{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  .logo-text {
+    font-size: 32px;
+    font-weight: 600;
+    color: #EB2929;
+  }
+
+  .btn {
+    margin: 0px 5px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+
+  .btn-border {
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 180px;
+    height: 45px;
+  }
+    /* Page-Heading */
+
+
+  .page-heading{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #192F60;
+    margin-left: 9%;
+    margin-top: 35px;
+    margin-bottom: 30px;
+  }
+  /* Filter and sort */
+
+  .main-border{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+
+  .filter-border{
+    width: 20%;
+    height: 690 px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    color: #192F60;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-top: 25px;
+  }
+
+  .filter-heading{
+    margin-bottom: 20px;
+  }
+
+  .filter{
+    font-size: 19px;
+    font-weight: 600;
+  }
+
+  .search-label{
+    margin: 8px 0px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .select{
+    width: 208px;
+    height: 38px;
+    border: 1px solid #8C96AB;
+    border-radius: 3px;
+    padding: 0px 15px;
+    color: #8C96AB;
+    font-size: 15px;
+  }
+  .food{
+    margin-bottom:20px;
+    padding:0px;
+    font-size: 16px;
+    color: #8C96AB;
+
+  }
+  .cusi{
+    margin-top:8px;
+    margin-bottom:10px;
+    color: #192F60;
+    font-size: 18px;
+  }
+ 
+
+  /* Bakery-Details*/
+
+  .menu-sec{
+    width: 68%;
+    height: 675px;
+    margin-left: 45px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .menu-details{
+    padding: 30px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    width: 90%;
+  }
+
+  .bakery-img{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 20%;
+    background-image: url("./imageszomato/shutterstock_1154073754.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .bakery{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+
+  .bakery-details{
+    margin-left: 30px;
+    margin-bottom:10px;
+    padding:10px;
+  }
+  .bakery-name{
+    font-size: 30px;
+    font-weight: 600;
+    color: #192F60;
+  }
+
+  .fort{
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 6px;
+    color: #192F60;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+
+  .bakery-desc{
+    font-size: 19px;
+    color: #636F88;
+    padding-left: 6px;
+  }
+
+  .menu-details hr{
+    border: 1px solid #cfd2d7fd;
+    margin-bottom: 25px;
+  }
+  .space{
+    margin-top:20px;
+  }
+
+  .cuisine{
+    display: flex;
+    align-items: center;
+  }
+ .cost{
+    color: #192F60;
+    font-weight: 500;
+    margin-left: 40px;
+    padding:15px;
+
+  }
+  .bak{
+    margin-bottom: 5px;
+  }
+  .price{
+    color: #636F88;
+    padding:15px;
+  }
+
+
+  /* pagedesign */
+
+  .pagedesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page,
+  .arrow {
+    font-size: 20px;
+    padding: 3px 12px;
+    background-color: #f5f5f5;
+    border: 1px solid #8C96AB;
+    border-radius: 6px;
+    margin: 25px 8px;
+    color:#8C96AB;
+    cursor: pointer;
+  }
+
+  .arrow-left {
+    opacity: 0.5;
+  }
+
+  .page.active {
+    background-color:#8C96AB;
+    color: #fff;
+  }
